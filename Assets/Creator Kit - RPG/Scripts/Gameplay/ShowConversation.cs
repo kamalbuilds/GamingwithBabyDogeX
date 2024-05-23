@@ -120,7 +120,7 @@ namespace RPGM.Events
                                 id = "CONNECTED_ADDR",
                                 text =
                                     addr.Substring(0, 6) +
-                                    "... ? What a weird name.",
+                                    "... ? What an amazing addr babydoge!",
                                 options = new List<ConversationOption>()
                             };
 
