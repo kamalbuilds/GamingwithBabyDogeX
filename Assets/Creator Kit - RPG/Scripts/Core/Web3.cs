@@ -6,7 +6,7 @@ namespace RPGM.Core
 {
     public class Web3 : MonoBehaviour
     {
-        // Instantiate the SDK with Gasless Transactions
+        // Instantiate the SDK with Gasless Transactions using OZ Defender
         private ThirdwebSDK
             sdk =
                 new ThirdwebSDK("https://bsc-testnet-rpc.publicnode.com",
@@ -44,23 +44,21 @@ namespace RPGM.Core
 
         public Contract GetTokenDropContract()
         {
-            return sdk.GetContract("0x0B844d398F3a19f41209006D1D735FF379d99BDD");
-                // MMQ COIN
+            return sdk.GetContract("0x9B8C7E9cC11C3005857aCd9cd6fEFD4068E46ADD");
         }
 
         public async Task<TransactionResult> Claim()
         {
             await Connect();
             var contract = GetTokenDropContract();
-            return await contract.ERC20.Claim("10");
+            return await contract.ERC20.Claim("100");
         }
 
         public Marketplace GetMarketplaceContract()
         {
             return sdk
-                .GetContract("0x424832c400e69230E3553Aed59e0eF9A605Ea195")
+                .GetContract("0xC8088B0Bd559CA7535b480E47bc7Dc9B79Fe9084")
                 .marketplace;
-                // MMQ Marketplace
         }
 
         public async Task<TransactionResult> BuyItem(string itemId)
