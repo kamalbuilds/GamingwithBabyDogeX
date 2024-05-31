@@ -18,9 +18,15 @@ Visit the above link to explore the BabyDogeQuestCoin (BDQC) contract on the BSC
 
 Show off your achievements and upgrade your arsenal by collecting and upgrading your BabyDoge abilities with Ability NFTs from the Marketplace. These unique and valuable Non-Fungible Tokens represent powerful abilities that can aid you in your quests and elevate your BabyDoge to a formidable player.
 
+https://testnets.opensea.io/collection/ability-nft-cards
+
+https://testnets.opensea.io/assets/bsc-testnet/0xc6d33df2f2e6836cad003a6ca5074f3d24987d63/0
+
 ### 🛒 Dynamic In-Game Economy
 
 Visit the Marketplace to unleash the full potential of your coins. Here, you can buy, sell, and trade Ability NFTs with other players, creating a vibrant and dynamic in-game economy. Find the perfect abilities to suit your playstyle and make your mark in the gaming community.
+
+https://testnet.bscscan.com/address/0xC8088B0Bd559CA7535b480E47bc7Dc9B79Fe9084
 
 ### 🔄 Token Integration with BabyDogeSwap
 
